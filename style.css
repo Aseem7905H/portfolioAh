@@ -1,0 +1,373 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  overflow-x: hidden;
+}
+body{
+    background-color: black;
+    color: aliceblue;
+}
+
+
+.container{
+    width:100vw;
+    height:650px;
+    background-image:url('laptop.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nav{
+    display: flex;
+    justify-content:space-between;
+}
+.img{
+    width:80px;
+    height: 20px;
+    margin-top:20px;
+    margin-left:77px;
+    transition:all 0.5s ;
+    background-color: #f20b0b;
+}
+.img:hover{
+height:35px;
+width:95px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap:40px;
+    margin-right:100px;
+    margin-top:20px;
+    
+}
+a{
+    text-decoration: none;
+    color:aliceblue;
+    font-size: 35px;
+    position: relative;
+}
+
+.box{
+    width:550px;
+    height:200px;
+   
+    margin-left:200px;
+    margin-top:150px;
+    color:aliceblue;
+}
+p{
+    font-size: 25px;
+}
+#yash{
+    font-size:50px;
+}
+.body{
+    width:100vw;
+    height:600px;
+    display:flex;
+    padding-left:50px;
+    padding-top:70px;
+    gap:15px;
+}
+.profile{
+    height:95%;
+    width: 14%;
+margin-left:100px;  
+transition-property: all;
+transition-property: all;
+transition-duration: .3s;
+transition-timing-function: ease-in;
+object-fit: cover;
+}
+.profile:hover
+{
+   transform: scale(1.08);
+}
+.about{
+    color: aliceblue;
+    font-size: 25px;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+gap:25px;
+align-items:center;
+
+
+}
+.skills{
+    width:100%;
+    height:185px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content:start;
+    gap:9px;
+ }
+    
+.para{
+    margin-right:30px;
+ width:1200px;
+ margin: 40px;
+
+}
+.service{
+    width:100vw;
+    height:600px;
+    
+    overflow-y:hidden;
+}
+.father
+{
+    width:100vw;
+    display:flex;
+  
+    height:80%;
+    align-items: center;
+   justify-content: space-around;
+    overflow:hidden;
+}
+#mummy{
+    justify-content: center;
+    align-items: center;
+    gap:120px
+}
+.child
+{
+    width:28%;
+    background-color:rgb(21, 20, 20);
+    height:75%;
+    border-radius:15px;
+    box-shadow: 4px 4px 50px black;
+    transition-property: all;
+    transition-duration: .2s;
+    transition-timing-function: ease-in;
+  
+       
+}
+.child:hover{
+   transform: scale(1.05);
+    background-color:rgb(135, 2, 67) ;
+    text-shadow: 4px 4px 2px black;
+    
+}
+.my
+{
+    font-size:x-large;
+    font-weight:bolder;
+    padding:50px;
+}
+.image{
+    padding-left:30px;
+    padding-top:30px;
+}
+.h1{
+    padding-left:30px;
+    padding-top:20px;
+}
+
+.pp{
+    padding-left:30px;
+    padding-top:20px;
+    padding-right: 40px;
+}
+#alne{
+   font-size:50px;
+}
+.last{
+    width:100vw;
+    height:600px;
+
+    display: flex;
+overflow: hidden;
+    align-items: center;
+}
+.contact{
+    height:75%;
+    width:30%;
+  
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    align-items: center;
+  margin:200px;
+
+}
+#gmail{
+    height:15px
+}
+#mail{
+    font-size: 10px;
+}
+.link
+{
+    display:flex;
+    gap:9px;
+
+}
+.mango{
+height:20px;
+transition-property: all;
+
+    transition-duration: .1s;
+    transition-timing-function: ease-in;
+
+}
+.mango:hover{
+    
+    background-color:rgb(135, 2, 67) ;
+    text-shadow: 4px 4px 2px black;
+    
+}
+#hillo{
+    font-size:xxx-large;
+    margin:50px;
+}
+#btn1{
+   
+background-color: transparent;
+border-radius:7px;
+color: aliceblue;
+border: 2px solid aliceblue;
+height: 40px;
+width:110px;
+font-weight: bold;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+cursor:pointer;
+}
+.btn{
+margin-top: 20px;
+background-color: transparent;
+border-radius:7px;
+color: aliceblue;
+border: 2px solid aliceblue;
+height: 25px;
+width:110px;
+font-weight: bold;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+cursor:pointer;
+}
+.btn:hover{
+    color:black;
+    background-color:rgb(135, 2, 67) ;}
+    #btn1:hover{
+        color:black;
+        background-color:rgb(135, 2, 67) ;}
+.input{
+    width:600px;
+    height:30px;
+    background-color:rgb(21, 20, 20);
+   
+    border: none;
+    color:aliceblue ;
+}
+.message{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+    height:300px;
+}
+#textarea{
+    height:150px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+    
+}
+#submit{
+    width:99px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 7px;
+    border-color: rgb(135, 2, 67) ;
+    background: transparent;
+    color:aliceblue
+}
+#submit:hover{
+    color:black;
+    background-color:rgb(135, 2, 67) ;}
+.footer {
+    text-align: center;
+    padding: 20px;
+ 
+    background-color: #0d777a;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 20px;
+    color: #0c0c0c;
+}
+.middle{
+    width:100vw;
+height:1700px;
+
+overflow: hidden;
+}
+.grandfather{
+    height:80%;
+   gap:40px;
+    display: flex;
+flex-direction: column;
+}
+.child1
+{
+    width: 20%;
+    height:90%;
+    border-radius: 25px;
+    box-shadow: 4px 4px 50px black;
+    overflow: hidden;
+    position:relative;
+}
+ .father .overlap{
+ 
+    background-color: red;
+    height: 100%;
+    width:100%;
+
+        position:absolute;
+        top:0;
+        left:0;
+        
+        background-color: rgb(135, 2, 67);
+       
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        border-radius: 20px;
+        opacity:0;
+      
+        transition:all 0.3s ease-in 0s;
+        
+    }
+
+    
+    .father .child1 .overlap span{
+        color:white;
+        font-size:1.4rem;
+       padding:15px;
+        
+    }
+     .overlap:hover{
+        opacity:1;
+      height:90%;
+      transform: scale(1.05);
+
+    }
+    .father .overlap span{
+        color:black;
+        font-size:1.2rem;
+    }
+html{
+    scroll-behavior: smooth;
+}
+.child2{
+width:100%;
+height:100%;
+position: absolute;
+}
